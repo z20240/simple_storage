@@ -9,6 +9,7 @@ client.on("error", (err) => {
 });
 
 router.get('/', function(req, res, next) {
+	res.json([]);
 });
 
 /**
